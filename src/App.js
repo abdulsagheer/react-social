@@ -1,11 +1,7 @@
-import Topbar from './components/topbar/Topbar';
+import Profile from "./pages/profile/Profile";
 
 function App() {
-  return (
-    <div className="App">
-      <Topbar />
-    </div>
-  );
+  return <Profile />;
 }
 
 export default App;
